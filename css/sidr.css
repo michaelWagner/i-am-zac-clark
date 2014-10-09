@@ -1,0 +1,107 @@
+
+.sidr {
+    background: none repeat scroll 0 0 #333;
+    color: #000;
+    display: none;
+    font-size: 1em;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 250px;
+    z-index: 999999;
+    margin: 0;
+}
+
+.sidr .sidr-inner {
+    padding: 0 0 15px;
+}
+
+.sidr .sidr-inner > p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sidr.right {
+    left: auto;
+    right: -260px;
+}
+
+.sidr.left {
+    left: -260px;
+    right: auto;
+}
+
+.sidr h1, .sidr h2, .sidr h3, .sidr h4, .sidr h5, .sidr h6 {
+    color: #fff;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 5px;
+    padding: 0 15px;
+}
+
+.sidr p {
+    font-size: 13px;
+    margin: 0 0 12px;
+}
+
+.sidr > p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sidr ul {
+    border-bottom: 1px solid #f2f3e1;
+    border-top: 1px solid #f2f3e1;
+    display: inline-table;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.sidr ul li {
+    border-bottom: 1px solid #f2f3e1;
+    border-top: 1px solid #f2f3e1;
+    display: block;
+    line-height: 48px;
+    height: 10%;
+}
+
+.sidr ul li:hover, .sidr ul li.active, .sidr ul li.sidr-class-active {
+    border-top: medium none;
+    line-height: 49px;
+}
+
+.sidr ul li:hover > a, .sidr ul li:hover > span, .sidr ul li.active > a, .sidr ul li.active > span, .sidr ul li.sidr-class-active > a, .sidr ul li.sidr-class-active > span {
+    box-shadow: 0 0 15px 3px #c8d398 inset;
+}
+
+.sidr ul li a, .sidr ul li span {
+    color: #fff;
+    display: block;
+    padding: 0 59px;
+    text-decoration: none;
+}
+
+.sidr ul li ul {
+    border-bottom: medium none;
+    margin: 0;
+}
+
+.sidr ul li ul li {
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.sidr ul li ul li:last-child {
+    border-bottom: medium none;
+}
+
+.sidr ul li ul li:hover, .sidr ul li ul li.active, .sidr ul li ul li.sidr-class-active {
+    border-top: medium none;
+    line-height: 41px;
+}
+
+.sidr ul li ul li a, .sidr ul li ul li span {
+    padding-left: 30px;
+}
