@@ -38,7 +38,7 @@ a {
   background: url(../imgs/zac-clark.png) no-repeat center;
   background-size: 80%;
   height: 92px;
-  width: 250px;
+  width: 332px;
   margin: 0 3%;
   display: inline-block;
 }
@@ -58,11 +58,58 @@ a {
   background-size: 100%;
 }
 
+.social-media-buttons-wrapper {
+  height: 34px;
+  width: 100%;
+  /*border: solid red;*/
+  position: fixed;
+  bottom: 0;
+}
+
+.facebook-button {
+  background: url(../imgs/facebook_black.png) no-repeat center;
+  /*background-color: blue;*/
+}
+
+.twitter-button {
+  background: url(../imgs/twitter_black.png) no-repeat center;
+  /*background-color: purple;*/
+}
+
+.instagram-button {
+  background: url(../imgs/instagram_black.png) no-repeat center;
+  /*background-color: #666;*/
+}
+
+.soundcloud-button {
+  background: url(../imgs/soundcloud_black.png) no-repeat center;
+  /*background-color: black;*/
+}
+
+.email-button {
+  background: url(../imgs/email_black.png) no-repeat center;
+  /*background-color: red;*/
+}
+
+.social-media-button {
+  height: 34px;
+  width: 35px;
+  float: right;
+  /*display: inline-block;*/
+  background-size: 79%;
+}
+
+.social-media-button:hover {
+  background-color: #e0a359;
+}
+
 @media screen and (max-width: 650px) {
   .logo {
     position: fixed;
-    height: 37px;
-    margin: 0 13%;
-    top: 45%;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
   }
 }
