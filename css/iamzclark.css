@@ -35,7 +35,7 @@ a {
 }
 
 .logo {
-  background: url(../imgs/zac-clark.png) no-repeat center;
+  background: url(../imgs/zac-clark-logo-2.png) no-repeat left;
   background-size: 80%;
   height: 92px;
   width: 332px;
@@ -53,7 +53,7 @@ a {
   background-size: 100%;
 }
 
-.nav-collapse:hover {
+.nav-collapse:hover, .hover_effect {
   background: url(../imgs/arrow-orange.png) no-repeat center;
   background-size: 100%;
 }
@@ -99,16 +99,24 @@ a {
   background-size: 79%;
 }
 
-.social-media-button:hover {
+.social-media-button:hover, .hover_effect {
   background-color: #e0a359;
+}
+
+.hover {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  user-select: none;
 }
 
 @media screen and (max-width: 650px) {
   .logo {
     position: fixed;
     width: 300px;
-    top: 37%;
-    left: 1%;
+    top: 36%;
+    left: 11%;
     transform: translate(-50%, -50%);
 
   }
